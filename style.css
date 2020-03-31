@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(180, 180, 66, 0.699);
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333301;
+    color: whitesmoke;
+    margin-bottom: 60px;
+}
+
+.main-nav h1{
+    font-size: 265%;
+    margin: 20px 10px;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon{
+    width: 15px;
+    margin-right: 3px;
+}
+
+.full-name{
+    font-weight: 420;
+    font-size: 19px;
+}
+
+#name{
+    margin-top: 6px;
+    width: 380px;
+    height: 35px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.u-email{
+    font-weight: 430;
+    font-size: 17px;
+}
+
+#email{
+    margin-top: 6px;
+    width: 380px;
+    height: 35px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.u-password{
+    font-weight: 430;
+    font-size: 17px;
+}
+
+#password{
+    margin-top: 6px;
+    width: 380px;
+    height: 35px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+button{
+    padding: 12px 40px 12px 40px;
+    background-color: #333301;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer{
+    background-color: rgb(94, 94, 21);
+    text-align: end;
+    color: rgb(17, 4, 4);
+    font-weight: 500;
+    font-size: 80%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p{
+    margin: 0;
+    padding-right: 15px;
+}
